@@ -13,6 +13,9 @@
 		C23F4E5526488D5F00EF66A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23F4E5326488D5F00EF66A6 /* Main.storyboard */; };
 		C23F4E5726488D6100EF66A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23F4E5626488D6100EF66A6 /* Assets.xcassets */; };
 		C23F4E5A26488D6100EF66A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23F4E5826488D6100EF66A6 /* LaunchScreen.storyboard */; };
+		C23F4E6226488DEB00EF66A6 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23F4E6126488DEB00EF66A6 /* APICaller.swift */; };
+		C250DC3A26492CFA00FDE78B /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C250DC3926492CFA00FDE78B /* CryptoTableViewCell.swift */; };
+		C250DC3C2649311E00FDE78B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C250DC3B2649311E00FDE78B /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C23F4E5626488D6100EF66A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C23F4E5926488D6100EF66A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C23F4E5B26488D6100EF66A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C23F4E6126488DEB00EF66A6 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		C250DC3926492CFA00FDE78B /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+		C250DC3B2649311E00FDE78B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				C23F4E5626488D6100EF66A6 /* Assets.xcassets */,
 				C23F4E5826488D6100EF66A6 /* LaunchScreen.storyboard */,
 				C23F4E5B26488D6100EF66A6 /* Info.plist */,
+				C23F4E6126488DEB00EF66A6 /* APICaller.swift */,
+				C250DC3926492CFA00FDE78B /* CryptoTableViewCell.swift */,
+				C250DC3B2649311E00FDE78B /* Models.swift */,
 			);
 			path = CryptoTrack;
 			sourceTree = "<group>";
@@ -140,6 +149,9 @@
 				C23F4E5226488D5F00EF66A6 /* ViewController.swift in Sources */,
 				C23F4E4E26488D5F00EF66A6 /* AppDelegate.swift in Sources */,
 				C23F4E5026488D5F00EF66A6 /* SceneDelegate.swift in Sources */,
+				C250DC3C2649311E00FDE78B /* Models.swift in Sources */,
+				C250DC3A26492CFA00FDE78B /* CryptoTableViewCell.swift in Sources */,
+				C23F4E6226488DEB00EF66A6 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
